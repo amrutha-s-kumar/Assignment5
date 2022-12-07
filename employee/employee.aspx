@@ -12,6 +12,7 @@
             <asp:BoundField DataField="age" HeaderText="Age" />
             <asp:CommandField HeaderText="Update" ShowEditButton="True" />
             <asp:CommandField HeaderText="Delete" ShowDeleteButton="True" />
+              <asp:HyperLinkField DataNavigateUrlFields="emp_id" DataNavigateUrlFormatString="Redirect.aspx?empid={0}" HeaderText="Go to Next Page" Text="Go" />
         </Columns>
     </asp:GridView>
 </asp:Content>
